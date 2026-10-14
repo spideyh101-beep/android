@@ -5,15 +5,15 @@ A codespace repository configured to install android
 development tools.
 
 ## Installed Software
+    * Ubuntu
+    * Bazelisk
+    * Gradle
+    * Maven
+    * Ant
+    * Meson (FIXME **archived feature unavailable**)
+    * Java 25 (Oracle)
+    * Android SDK
 
-    * Ubuntu      (jammy)
-    * Bazelisk    (v1.17.0)
-    * Gradle      (8.1.1)
-    * Maven       (3.9.2)
-    * Ant         (1.10.13)
-    * Meson       (1.1.0)
-    * Java 17     (Oracle)
-    * Android SDK (sdkmanager-9.0/android-33)
 
 ## Usage
 
@@ -46,6 +46,14 @@ Additional information about [VS Code][3], the [UI][4],
 is available online. Devcontainers are available on the most
 common operating systems and the web ([1][8] & [2][9])!
 
+Before getting started it might also be helpful to add Copilot [repository custom instructions & prompt files][13], even with the [free][14] plan! More advanced users might also be interested in personalizing their dev containers with [dotfiles][12].
+
+If you want to get started with Java development you can use this
+["Maven in 5 Minues"][10] documentation to learn the basics in 5
+minutes! Just run the commands listed in the terminal to get
+started. You can search online for similar resources about 
+the other tools or [further information][11].
+
 [1]: https://docs.github.com/en/codespaces/setting-up-your-project-for-codespaces/adding-a-dev-container-configuration/introduction-to-dev-containers#using-a-predefined-dev-container-configuration
 
 [2]: https://code.visualstudio.com/docs/remote/codespaces
@@ -57,5 +65,12 @@ common operating systems and the web ([1][8] & [2][9])!
 
 [8]: https://github.com/features/codespaces
 [9]: https://docs.github.com/en/codespaces/
+
+[10]: https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html
+[11]: https://cs61a.org
+[12]: https://docs.github.com/en/codespaces/setting-your-user-preferences/personalizing-github-codespaces-for-your-account
+[13]: https://docs.github.com/en/copilot/how-tos/configure-custom-instructions/add-repository-instructions
+[14]: https://docs.github.com/en/copilot/get-started/plans
+
 
 
