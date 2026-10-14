@@ -5,7 +5,6 @@ A codespace repository configured to install android
 development tools.
 
 ## Installed Software
-
     * Ubuntu
     * Bazelisk
     * Gradle
@@ -14,6 +13,7 @@ development tools.
     * Meson (FIXME **archived feature unavailable**)
     * Java 25 (Oracle)
     * Android SDK
+
 
 ## Usage
 
